@@ -1,13 +1,36 @@
-body {
-    font-family: "Quicksand",sans-serif;
-    margin: 0;
-}
-#page-logo a{
+#container {
+    background-color: beige;
     padding: 10px;
+    width:600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-flow = flex direction + flex-wrap */
+}
+p{
+    background-color: bisque;
+    margin: 10px;
+    width: 250px;
+}
+/* #page-logo p{
+    margin: 10px;
+    width: 200px;
     font-family: "Oleo Script",sans-serif;
     color: rgb(245,243,160);
     font-size: 50px;
     text-decoration: none;
     text-transform: uppercase;
     text-shadow:1px 1px 2px rgb(0,0,0);
+    background-color: pink;
+} */
+ul{
+    background-color: orange;
+    list-style: none;
+    width: 250px;
+    margin: 10px;
+    padding: 0;
+}
+li{
+    background-color: aqua;
+    width: 100px;
 }
